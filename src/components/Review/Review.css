@@ -1,0 +1,23 @@
+.card{
+    border: 1px solid gray;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+
+.reviewer img{
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-name{
+    font-size: 17px;
+    font-weight: 500;
+}
