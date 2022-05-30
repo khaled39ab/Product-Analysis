@@ -1,3 +1,4 @@
+import { Navigate, useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import Image from '../../images/water.jpg'
 import Review from '../Review/Review';
@@ -6,7 +7,7 @@ import './Home.css'
 
 const Home = () => {
     const [reviews, setreviews] = useReviews();
-
+    const navigate = useNavigate();
     return (
         <section>
             <div className='product-container'>
@@ -29,7 +30,9 @@ const Home = () => {
                         ></Review>)
                     }
                 </div>
-                <button>See All Reviews </button>
+                <div className='btn-container'>
+                    <button  className='reviews-btn' onClick={() => navigate('/reviews')}>See All Reviews </button>
+                </div>
             </div>
         </section>
     );

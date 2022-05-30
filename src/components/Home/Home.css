@@ -42,3 +42,20 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.btn-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-btn{
+    padding: 10px 45px;
+    background-color: slateblue;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: larger;
+}
