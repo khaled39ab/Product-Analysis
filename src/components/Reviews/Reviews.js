@@ -6,14 +6,17 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews, setreviews] = useReviews();
     return (
-        <div className='reviewer-container'>
-            {
-                reviews.map(review =><Review
-                    key={review.id}
-                    review={review}
-                ></Review>)
-            }
-        </div>
+        <section>
+            <h1 className='reviews-title'>Our Customer's Reviews</h1>
+            <div className='reviewer-container'>
+                {
+                    reviews.map(review => <Review
+                        key={review.id}
+                        review={review}
+                    ></Review>)
+                }
+            </div>
+        </section>
     );
 };
 

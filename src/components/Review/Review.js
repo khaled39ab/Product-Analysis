@@ -4,7 +4,7 @@ import React from 'react';
 import './Review.css'
 
 const Review = (props) => {
-    const {name, review, rating, image, date} = props.review;
+    const { name, review, rating, image, date } = props.review;
     return (
         <div className='card'>
             <p>{review}</p>
@@ -14,7 +14,7 @@ const Review = (props) => {
                 <FontAwesomeIcon icon={faStar} />
                 <FontAwesomeIcon icon={faStar} />
                 <FontAwesomeIcon icon={faStarHalfStroke} />
-                </span> 
+            </span>
                 ({rating})</h4>
             <div className='reviewer'>
                 <img src={image} alt="" />
