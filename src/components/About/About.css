@@ -1,0 +1,12 @@
+.about{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.about h1{
+    color: darkblue;
+}
+
+.about p{
+    color: orangered;
+}

@@ -6,7 +6,10 @@ import './Header.css'
 const Header = () => {
     return (
         <nav>
-            <img src={logo} alt="" />
+            <div className='logo-name'>
+                <img src={logo} alt="" />
+                <h2>Product Analysis</h2>
+            </div>
             <div className='custom-link'>
                 <CustomLink to={'/'}>HOME</CustomLink>
                 <CustomLink to={'/reviews'}>REVIEWS</CustomLink>
