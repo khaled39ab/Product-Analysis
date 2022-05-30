@@ -1,5 +1,6 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
+import BarCharts from '../Charts/BarCharts';
 import Review from '../Review/Review';
 import './Reviews.css'
 

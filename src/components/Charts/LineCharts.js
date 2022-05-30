@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-import useData from '../../hooks/useData';
 import { DataContext } from '../Dashboard/Dashboard';
 
 const LineCharts = () => {
