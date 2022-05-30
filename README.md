@@ -1,6 +1,9 @@
-# Product Analysis
+# Project Name: Product Analysis
 ## Live Site:
 
-### Description
-* Here is product reviews in this project.
+### Short description of the project
+* A product analysis documentation page.
+* A customer's reviews page.
+* A blogs section with some question answer.
+* Feature of some analysis charts
 
