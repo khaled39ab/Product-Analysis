@@ -6,21 +6,13 @@ import Header from "./components/Header/Header";
 import Home from './components/Home/Home';
 import Reviews from './components/Reviews/Reviews';
 import Dashboard from './components/Dashboard/Dashboard';
-import NotFound from './components/NotFound/NotFound'
-import { createContext } from 'react';
-import useData from './hooks/useData';
-import useReviews from './hooks/useReviews';
+import NotFound from './components/NotFound/NotFound';
 
-export const AllContext = createContext()
 function App() {
-
-  const data = useData()
-  const reviews = useReviews()
 
   return (
     <div>
       <Header></Header>
-      <AllContext.Provider value={{data, reviews}}>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>
@@ -30,7 +22,6 @@ function App() {
           <Route path='/about' element={<About></About>}></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>
         </Routes>
-      </AllContext.Provider>
     </div>
   );
 }

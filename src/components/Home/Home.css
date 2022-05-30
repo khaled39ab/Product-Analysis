@@ -31,3 +31,14 @@
 #color-blue{
     color: rgb(81, 81, 243);
 }
+
+.reviews-title{
+    text-align: center;
+    color: rgb(10, 169, 174);
+    font-size: 32px;
+}
+
+.reviewer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

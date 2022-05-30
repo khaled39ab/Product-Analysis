@@ -2,6 +2,7 @@
     padding:40px 0;
     background:#fff;
     font-family: 'Arvo', serif;
+    text-align: center;
 }
 
 .page_404  img{ 
@@ -34,8 +35,5 @@
 
 .content_box_404{
     margin-top:-50px;
-}
-
-.content_box_404 p{
     color: red;
 }
