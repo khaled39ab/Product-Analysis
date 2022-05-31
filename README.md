@@ -4,6 +4,6 @@
 ### Short description of the project
 * A product analysis documentation page.
 * A customer's reviews page.
-* A blogs section with some question answer.
+* A blogs section with some question's answer.
 * Have feature of some analysis charts
 
