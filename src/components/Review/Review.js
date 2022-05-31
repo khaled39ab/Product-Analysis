@@ -7,7 +7,7 @@ const Review = (props) => {
     const { name, review, rating, image, date } = props.review;
     return (
         <div className='card'>
-            <p>{review}</p>
+            <p><cite>{review}</cite></p>
             <h4>Ratings: <span>
                 <FontAwesomeIcon icon={faStar} />
                 <FontAwesomeIcon icon={faStar} />

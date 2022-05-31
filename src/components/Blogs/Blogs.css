@@ -1,0 +1,13 @@
+.blogs-container{
+    margin: 30px;
+}
+
+.blogs-container div{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid darkgoldenrod;
+}
+
+.blogs-container h1{
+    text-align: center;
+}

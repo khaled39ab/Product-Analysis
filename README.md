@@ -5,5 +5,5 @@
 * A product analysis documentation page.
 * A customer's reviews page.
 * A blogs section with some question answer.
-* Feature of some analysis charts
+* Have feature of some analysis charts
 
